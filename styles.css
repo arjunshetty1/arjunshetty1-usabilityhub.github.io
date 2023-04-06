@@ -44,6 +44,7 @@ a{
 .small-bold-text{
     font-size: 1rem;
     font-weight: 700;
+    font-family:'popins',sans-serif;
 }
 
 .container{
@@ -54,7 +55,9 @@ a{
 .banner-text{
     color: white;
     padding: 15px 30px;
-    text-align: center
+    text-align: center;
+    font-family:'popins',sans-serif;
+    font-weight: 500;
 
 
 }
@@ -68,7 +71,7 @@ a{
 .top-banner{ 
  background-color:#4fb3d4  ;
  background-image: url('./assets/asset\ 32.png');
- background-size: 300px;
+ background-size: 200px;
 } 
 
 
@@ -124,7 +127,7 @@ width:200px;
 }
 
 .secondary-btn{
-    border: 0.5px solid;
+    border: 0.5px solid ; 
     border-radius: 6px;
     font-weight: 500;
     color: var(---primary-text-color);
@@ -138,3 +141,90 @@ width:200px;
 
 }
 
+
+header{
+    padding: 50px var(--padding-inline-section) 0;
+
+}
+
+.header-section{
+    justify-content:space-between;
+    gap: 80px;
+    text-align:inherit;
+
+}
+.header-right img{
+    width: 600px;
+}
+
+.header-left{
+    max-width: 400vh;
+}
+
+.header-left h1{
+    margin-top: 20px;
+}
+
+.get-started{
+    margin-right: 18px;
+    margin-top: 20px;
+   
+}
+
+.get-started{
+    font-weight: bold;
+}
+
+
+.sex{
+    padding-top: 20px;
+    margin-bottom:10px;
+}
+
+.header-section{
+    padding-top: 40px;
+}
+
+
+/* companies section*/
+
+.companies-header{
+    margin-block: 30px;
+    color:var(---primary-text-color) ;
+    text-align:center;
+
+}
+.logos{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo{
+    height:46px;
+}
+
+.features-header{
+    text-align: center;
+}
+
+.features-section{
+    padding: 80px var(--padding-inline-section);
+}
+
+.features-header h2{
+    margin-bottom:20px ;
+}
+
+.features-card{
+    flex-direction: column;
+    gap: 20px;
+    max-width: 30%;
+}
+
+.features-area{
+    flex-wrap:wrap ;
+    justify-content: space-between;
+    gap: 40%;
+    margin-top: 20px;
+
+}
