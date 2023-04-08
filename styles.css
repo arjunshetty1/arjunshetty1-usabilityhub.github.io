@@ -17,11 +17,13 @@ body{
 }
 h1{
     font-size: 3rem;
+    color: #244965;
 
 }
 
 h2{
     font-size: 2rem;
+    color:#244965;
 }
 h2{
     font-size:1.5rem;
@@ -67,7 +69,7 @@ a{
     align-items: center;
 }
 
-/* top banner */
+
 .top-banner{ 
  background-color:#4fb3d4;
  background-image: url('./assets/asset\ 32.png');
@@ -186,12 +188,14 @@ header{
 }
 
 
-/* companies section*/
+
 
 .companies-header{
-    margin-block: 30px;
-    color:var(---primary-text-color) ;
+    margin-block: 50px;
+    color:#183b56 ;
     text-align:center;
+    margin-top: 70px;
+    font-weight: lighter;
 
 }
 .logos{
@@ -208,8 +212,12 @@ header{
 }
 
 .features-section{
-    padding: 80px var(--padding-inline-section) 0;
-    background-image: url(assets/asset\ 41.png);
+    padding: 60px var(--padding-inline-section) 0;
+    background-image: url("#########");
+    background-size: contain;
+    background-position: center;
+    background-size: 40em;
+    background-repeat: no-repeat;
 }
 
 .features-header h2{
@@ -379,4 +387,20 @@ arjun2{
     color: var(--accent-color-dark) !important;
     font-size: 2px !important;
     text-decoration: none;
+}h4{
+    color: #183b56;
+}
+
+.feature-desc h2{
+    font-size:35px;
+}
+
+
+.feature-desc h4{
+    font-size: 20px;
+}
+
+
+.subfooter-container p{
+    font-size: 1rem !important;
 }
