@@ -1,0 +1,25 @@
+@media screen and (max-width:991px) {
+    .nav-toggle{
+        display: block;
+        margin-right:20px;
+    }
+    h3{
+        font-size: 1.3rem;
+    }
+
+.nav-links{
+    display:none;
+}
+
+.examples-card{
+    width: calc(50% - 10px);
+    /*height: 300px;*/
+}
+.examples-area{
+    gap: 20px;
+}
+.cta-section{
+    padding-block: 60px;
+}
+
+}
