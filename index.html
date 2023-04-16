@@ -16,7 +16,7 @@
 
    <div class="top-banner">
     <div class="container">
-        <div class="small-bold-text banner-text">Arjun here, I push and pull codes.</div>
+        <div class="small-bold-text banner-text">Arjun here, I push and pull <span>(codes).</span></div>
     </div>
 </div>
     
@@ -26,17 +26,17 @@
         <a href="" class="company-logo">
             <img src="assets/asset 1.png" alt="Company logo">
         </a>
-        <div class="nav-links">
+        <div class="nav-links" id="nav-links">
         <ul class="flex">
             <li><a href="#"class='hover-links'>Products</a></li>
             <li><a href="#"class='hover-links'>Customers</a></li>
             <li><a href="#"class='hover-links'>Pricing</a></li>
             <li><a href="#"class='hover-links'>Resources</a></li>
             <li><a href="#"class='hover-links secondary-btn'>Sign in</a></li>
-            <li><a href="#"class='hover-links primary-btn'>Sign up</a></li>
+            <li><a href="#"class='hover-links  primary-btn'>Sign up</a></li>
         </ul>
     </div>  
-    <a href="" class="nav-toggle hover-links"><i class="fa-solid fa-bars"></i></a>
+    <a href="#" class="nav-toggle hover-links" id="nav-toggle"><i class="fa-solid fa-bars"></i></a>
     </div> 
    </nav>
 
@@ -166,7 +166,7 @@
    
 
    <section class="examples-section">
-   <div class="container">
+   <div class="container hottie">
     <div class="examples-header">
         <h2 class="examples-heading-text">One platform, endless possibilities</h2>
         <a class="secondary-btn" href="#">See more examples <i class="fa-solid fa-right-long"></i> </a>
@@ -253,7 +253,17 @@
    </div>
    
 
+<script>
+    const toggleButton = document.getElementById( 'nav-toggle' );
+    const navLinks = document.getElementById( 'nav-links' );
 
+
+    toggleButton.addEventListener('click',() => {
+        navLinks.classList.toggle('active');
+
+    });
+
+</script>
 
 </body>
 </html>

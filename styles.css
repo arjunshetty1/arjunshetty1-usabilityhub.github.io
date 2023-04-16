@@ -83,6 +83,7 @@ a{
 .main-nav{
   justify-content: space-between;
   margin-top:20px;
+  position: relative;
 }
 
 ul{
@@ -157,7 +158,7 @@ header{
 
 .header-section{
     justify-content:space-between;
-    gap: 80px;F
+    gap: 80px;
     text-align:inherits; 
 
 }
@@ -229,7 +230,7 @@ F{
 
 .features-header h2{
     margin-bottom:30px ;
-    font-size: 2rem !important;
+    font-size: 2rem;
     text-align: center;
     font: weight 700px;;
 }
@@ -420,3 +421,6 @@ arjun2{
     gap: 20px;
 }
 
+span{
+    color: black;
+}

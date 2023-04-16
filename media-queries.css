@@ -8,7 +8,29 @@
     }
 
 .nav-links{
-    display:none;
+    position: absolute;
+    background-color: white;
+    left:-100%;
+    top: 100%;
+    width: 100%;
+    padding-block: 50px;
+    transition: 0.2s ease-in-out;
+
+}
+
+.nav-links.active{
+    left: 0;
+
+}
+
+
+
+.nav-links ul{
+    flex-direction: column;
+}
+
+.main-nav{
+    overflow: initial;
 }
 
 .examples-card{
@@ -21,8 +43,9 @@
 .cta-section{
     padding-block: 60px;
 }
-
 }
+
+
 
 @media screen and (max-width:767px){
 
@@ -79,5 +102,59 @@
 footer{
     padding-block: 40px;
 }
+}
 
 
+@media screen and (max-width: 479px){
+    :root{
+    --padding-inline-section:10px;
+}
+    h1{
+        font-size: 2rem;
+        color: #244965;
+    
+    }
+    
+    h2{
+        font-size: 1.5rem;
+        color:#244965;
+    }
+p{
+    font-size: 1rem;
+}
+
+.feature-desc h4{
+    font-size: 16px;
+}
+
+.feature-desc h2{
+    font-size: 25px;
+}
+
+.examples-header h2{
+    font-size: 30px;
+}
+
+.features-header h2{
+    font-size: 10px;
+}
+
+.examples-header{
+    margin-block: 50px;
+}
+
+
+.hottie h3{
+    font-size: 17.5px;
+}
+
+.cta-section-container h2{
+    font-size: 22px;
+}
+
+
+.features-card{
+    min-width: 100%;
+}
+
+}
