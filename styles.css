@@ -126,6 +126,7 @@ width:200px;
     padding: 12px 24px;
     box-shadow:0 0 2px var(--secondary-text-color) ;
     transition: 0.2s ease-out;
+    text-align: center;
 
 }
 
@@ -156,16 +157,16 @@ header{
 
 .header-section{
     justify-content:space-between;
-    gap: 80px;
-    text-align:inherit;
+    gap: 80px;F
+    text-align:inherits; 
 
 }
 .header-right img{
     width: 100%;
 }
 
-.header-left{
-    max-width: 400vh;
+F{
+    max-width: 40vw;
 }
 
 .header-left h1{
