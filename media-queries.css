@@ -40,7 +40,44 @@
     .big-feature-container{
         flex-direction: column;
     }
-
-
-
+.footer-container{
+    flex-direction: column;
+    align-items:center;
+   
 }
+
+.link-column{
+    padding-block: 20px;
+    align-items:center;
+   
+    
+}
+
+.link-column a{
+    text-align: center;
+    padding-block: 0px;
+    color: rgb(63, 62, 62);
+}
+.subfooter-container{
+    flex-direction: column;
+    padding-top: 40px;
+}
+.extra{
+    gap: 10px;
+}
+
+.footer-container{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.subfooter{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+footer{
+    padding-block: 40px;
+}
+
+
